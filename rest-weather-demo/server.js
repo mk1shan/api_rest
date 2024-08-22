@@ -2,7 +2,7 @@ const express = require('express');  // Request: Setting up the Express framewor
 const axios = require('axios');  // Request: Importing Axios for making HTTP requests
 
 const app = express();  // Request: Creating an instance of the Express app
-const port = 3000;  // Request: Defining the port for the server
+const port = 3001;  // Request: Defining the port for the server
 
 // OpenWeatherMap API configuration
 const API_KEY = '4a0abbc8b904c7ecd6a197e54823c7c2'; // Request: API key for OpenWeatherMap
