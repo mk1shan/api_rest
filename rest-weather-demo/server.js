@@ -2,9 +2,9 @@ const express = require('express');
 const axios = require('axios');
 
 const app = express();
-const port = 3000;
+const port = 3003;
 
-const API_KEY = 'YOUR_API_KEY'; // Replace with your actual API key
+const API_KEY = '4a0abbc8b904c7ecd6a197e54823c7c2'; // Replace with your actual API key
 const WEATHER_API_URL = 'http://api.openweathermap.org/data/2.5/weather';
 
 app.get('/api/weather', async (req, res) => {
